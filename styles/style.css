@@ -6,12 +6,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-}
-
-@supports (font-variation-settings: normal) {
-  .page {
-    font-variation-settings: 'wght' var(--text-weight, 400);
-  }
+  font-variation-settings: 'wght' var(--text-weight, 400);
 }
 
 .header {
@@ -53,12 +48,7 @@
   padding-inline: 10px;
   padding-block: 6px;
   font-size: 18px;
-}
-
-@supports (font-variation-settings: normal) {
-  .card__title {
-    font-variation-settings: 'wght' var(--title-weight, 700);
-  }
+  font-variation-settings: 'wght' var(--title-weight, 700);
 }
 
 .card__figure {
@@ -111,7 +101,7 @@
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
-  .card__figure-label  {
+  .card__figure-label {
     text-shadow: none;
     text-stroke: 1px var(--accent-color, #fff);
     -webkit-text-stroke: 1px var(--accent-color, #fff);
@@ -167,7 +157,7 @@
   transition-delay: 0.05s;
 }
 
-.card__icon-button:hover .core{
+.card__icon-button:hover .core {
   fill: var(--main-color, #000);
   transition: fill 0.3s;
 }
@@ -177,7 +167,7 @@
   transition-delay: 0.05s;
 }
 
-.card__icon-button:active .core{
+.card__icon-button:active .core {
   fill: var(--heart-animation-fill-color, #f00);
 }
 
