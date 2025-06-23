@@ -320,7 +320,7 @@
   inline-size: 100%;
 }
 
-@media (width <= 376px) {
+@media (width <= 375px) {
   .floppy-icon {
     inline-size: 28px;
   }
