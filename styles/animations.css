@@ -1,4 +1,4 @@
-@keyframes scaling {
+@keyframes pulse {
   from {
     scale: 1;
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@keyframes spark {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
